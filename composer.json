@@ -1,0 +1,34 @@
+{
+    "name": "imafaz/netback",
+    "description": "lightweight library for backup and restore vpn servers",
+    "type": "library",
+    "version": "1.0.0",
+    "license": "MIT",
+    "keywords": [
+        "NetBack",
+        "net backup",
+        "vpn server backup restore",
+        "x-ui backup and restore",
+        "mikrotik backup and restore",
+        "ibsng backup and restore"
+    ],
+    "autoload": {
+        "psr-4": {
+            "NetBack\\": "src/"
+        }
+    },
+    "homepage": "https://github.com/imafaz/NetBack",
+    "authors": [
+        {
+            "name": "Abolfazl Majidi (MrAfaz)",
+            "email": "abolfazlmajidi100@gmail.com",
+            "homepage": "https://mrafaz.com"
+        }
+    ],
+    "require": {
+        "php-64bit": ">=7.0",
+        "imafaz/easylog": "^1.0",
+        "phpseclib/phpseclib": "^3.0"
+    },
+    "minimum-stability": "stable"
+}
