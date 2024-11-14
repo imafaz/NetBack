@@ -9,6 +9,7 @@ NetBack is a PHP library designed for backing up and restoring data from network
 - [Usage](#usage)
 - [Example](#examples)
 - [Available Methods](#available-methods)
+- [Todo](#todo)
 - [License](#license)
 
 ---
@@ -202,6 +203,12 @@ $xui->backup(string $localPath);
 | Attribute    | Description                   | Type   | Required | Default |
 | ------------ | ----------------------------- | ------ | -------- | ------- |
 | $localPath   | Path to save the database file | string | Yes      | -       |
+
+---
+
+## Todo
+- add restore method
+- add other devices support
 
 ---
 
